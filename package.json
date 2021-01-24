@@ -1,0 +1,26 @@
+{
+    "name": "stylelint-config-tpconfig",
+    "version": "1.0.0",
+    "description": "a custom config of stylelint",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CDTRSFE/stylelint-config-tpconfig.git"
+    },
+    "keywords": [],
+    "author": "puyuchun",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/CDTRSFE/stylelint-config-tpconfig/issues"
+    },
+    "homepage": "https://github.com/CDTRSFE/stylelint-config-tpconfig#readme",
+    "devDependencies": {
+        "stylelint": "^13.9.0",
+        "stylelint-config-standard": "^20.0.0",
+        "stylelint-declaration-block-no-ignored-properties": "^2.3.0",
+        "stylelint-order": "^4.1.0"
+    }
+}
