@@ -14,6 +14,8 @@ module.exports = {
             'rules',
             'at-rules',
         ],
+        // 关闭低层级选择器的位置必须在高层级选择器位置之前
+        'no-descending-specificity': null,
         // 指定4个空格
         'indentation': 4,
         // 多个选择器样式之间不允许有空行
@@ -28,10 +30,10 @@ module.exports = {
         'declaration-block-no-redundant-longhand-properties': true,
         // 不允许使用 !important
         'declaration-no-important': true,
-        // 选择器最大深度为4
-        'selector-max-compound-selectors': 4,
         // 限制 id选择器的数目在一个选择器中
-        'selector-max-id': 0,
+        'selector-max-specificity': ['1,4,2', {
+            ignoreSelectors: ['/el-/', '/#app/']
+        }],
         // 最多2个类型选择器
         'selector-max-type': 2,
         // 不允许使用通配符选择器
