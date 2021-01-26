@@ -4,6 +4,7 @@ module.exports = {
         'stylelint-declaration-block-no-ignored-properties',
         'stylelint-order',
     ],
+    ignoreFiles: ['node_modules/'],
     rules: {
         'plugin/declaration-block-no-ignored-properties': true,
         // 各分类属性顺序
