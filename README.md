@@ -13,7 +13,7 @@ $ npm install stylelint-config-tpconfig --save-dev
 ```javascript
 // stylelint.config.js
 {
-    extends: ['stylelint-config-standard', 'stylelint-config-tpconfig']
+    extends: 'stylelint-config-tpconfig'
 }
 ```
 
