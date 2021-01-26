@@ -1,7 +1,7 @@
 {
     "name": "stylelint-config-tpconfig",
     "version": "0.0.1",
-    "description": "a custom config of stylelint",
+    "description": "Custom configuration based on stylelint",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
