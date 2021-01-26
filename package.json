@@ -10,7 +10,7 @@
         "type": "git",
         "url": "git+https://github.com/CDTRSFE/stylelint-config-tpconfig.git"
     },
-    "keywords": [],
+    "keywords": ["stylelint"],
     "author": "puyuchun",
     "license": "ISC",
     "bugs": {

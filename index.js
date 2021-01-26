@@ -15,6 +15,7 @@ module.exports = {
             'rules',
             'at-rules',
         ],
+        'no-empty-source': null,
         // 关闭低层级选择器的位置必须在高层级选择器位置之前
         'no-descending-specificity': null,
         // 指定4个空格
@@ -32,7 +33,7 @@ module.exports = {
         // 不允许使用 !important
         'declaration-no-important': true,
         // 限制 id选择器的数目在一个选择器中
-        'selector-max-specificity': ['0,4,2', {
+        'selector-max-specificity': ['0,5,2', {
             ignoreSelectors: ['/el-/', '/#app/']
         }],
         // 最多2个类型选择器
