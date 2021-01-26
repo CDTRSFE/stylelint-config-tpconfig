@@ -7,7 +7,7 @@
 ## 安装
 
 ```shell
-$ npm install stylelint-config-tpconfig --save-dev
+$ npm install @trscd/stylelint-config-tpconfig --save-dev
 ```
 
 ## 使用
