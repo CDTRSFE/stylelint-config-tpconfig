@@ -17,10 +17,12 @@
         "url": "https://github.com/CDTRSFE/stylelint-config-tpconfig/issues"
     },
     "homepage": "https://github.com/CDTRSFE/stylelint-config-tpconfig#readme",
-    "devDependencies": {
-        "stylelint": "^13.9.0",
+    "dependencies": {
         "stylelint-config-standard": "^20.0.0",
         "stylelint-declaration-block-no-ignored-properties": "^2.3.0",
         "stylelint-order": "^4.1.0"
+    },
+    "devDependencies": {
+        "stylelint": "^13.9.0"
     }
 }
