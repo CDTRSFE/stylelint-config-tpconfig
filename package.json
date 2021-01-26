@@ -1,5 +1,5 @@
 {
-    "name": "stylelint-config-tpconfig",
+    "name": "@trscd/stylelint-config-tpconfig",
     "version": "0.0.1",
     "description": "Custom configuration based on stylelint",
     "main": "index.js",
@@ -10,7 +10,9 @@
         "type": "git",
         "url": "git+https://github.com/CDTRSFE/stylelint-config-tpconfig.git"
     },
-    "keywords": ["stylelint"],
+    "keywords": [
+        "stylelint"
+    ],
     "author": "puyuchun",
     "license": "ISC",
     "bugs": {
