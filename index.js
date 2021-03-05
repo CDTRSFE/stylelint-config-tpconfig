@@ -40,8 +40,6 @@ module.exports = {
         'selector-max-type': 2,
         // 不允许使用通配符选择器
         'selector-max-universal': 0,
-        // 不允许未知的动画
-        'no-unknown-animations': true,
         // 在字体名称必须使用引号的地方使用引号，其他地方不能使用
         'font-family-name-quotes': 'always-where-required',
         // url 函数内部必须有引号
