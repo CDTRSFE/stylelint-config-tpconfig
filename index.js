@@ -51,6 +51,6 @@ module.exports = {
         // 首行不允许空行
         'no-empty-first-line': true,
         // 不允许使用 unicode 作为顺序标记
-        'unicode-bom': 'never',
+        'unicode-bom': 'never'
     },
 };
