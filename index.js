@@ -34,7 +34,7 @@ module.exports = {
         'declaration-no-important': true,
         // 限制 id选择器的数目在一个选择器中
         'selector-max-specificity': ['0,5,2', {
-            ignoreSelectors: ['/el-/', '/#app/']
+            ignoreSelectors: ['/el-/', 'ant-', '/#app/']
         }],
         // 最多2个类型选择器
         'selector-max-type': 2,
