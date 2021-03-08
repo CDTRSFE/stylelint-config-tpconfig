@@ -1,6 +1,6 @@
 {
     "name": "@trscd/stylelint-config-tpconfig",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "Custom configuration based on stylelint",
     "main": "index.js",
     "scripts": {
