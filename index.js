@@ -1,7 +1,7 @@
 module.exports = {
-    extends: 'stylelint-config-standard',
+    extends: ['stylelint-config-html/html', 'stylelint-config-html/vue', 'stylelint-config-standard'],
     plugins: [
-        'stylelint-declaration-block-no-ignored-properties',
+        // 'stylelint-declaration-block-no-ignored-properties',
         'stylelint-order',
     ],
     ignoreFiles: ['node_modules/'],

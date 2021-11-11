@@ -27,7 +27,21 @@ $ npm install @trscd/stylelint-config-tpconfig --save-dev
 
 ### 编辑器自动修复
 
-需要下载对应的编辑器修复插件，以 `vscode` 举例，需要在 `vscode` 扩展工具中下载 `stylelint` 插件
+需要下载对应的编辑器修复插件，以 `vscode` 举例，需要在 `vscode` 扩展工具中下载 `stylelint` 插件。Stylelint v14 默认不再检查 `html`, `vue` 文件，需要配置插件选项 `stylelint.validate`:
+
+```js
+// vscode/settings.json
+
+{
+  "stylelint.validate": [
+      ...,
+      // ↓ Add "html" language.
+      "html",
+      // ↓ Add "vue" language.
+      "vue",
+  ]
+}
+```
 
 ### webpack打包修复
 
