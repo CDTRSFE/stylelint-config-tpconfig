@@ -6,7 +6,7 @@ module.exports = {
     ],
     ignoreFiles: ['node_modules/'],
     rules: {
-        'plugin/declaration-block-no-ignored-properties': true,
+        // 'plugin/declaration-block-no-ignored-properties': true,
         // 各分类属性顺序
         'order/order': [
             'custom-properties',
