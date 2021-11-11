@@ -1,8 +1,14 @@
 module.exports = {
-    extends: ['stylelint-config-html/html', 'stylelint-config-html/vue', 'stylelint-config-standard'],
+    extends: ['stylelint-config-html/html', 'stylelint-config-recommended-vue', 'stylelint-config-standard'],
     plugins: [
         // 'stylelint-declaration-block-no-ignored-properties',
         'stylelint-order',
+    ],
+    overrides: [
+        {
+            files: ['*.less', '**/*.less'],
+            customSyntax: 'postcss-less',
+        },
     ],
     ignoreFiles: ['node_modules/'],
     rules: {
