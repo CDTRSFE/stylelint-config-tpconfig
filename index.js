@@ -9,6 +9,10 @@ module.exports = {
             files: ['*.less', '**/*.less'],
             customSyntax: 'postcss-less',
         },
+        {
+            files: ['*.scss', '**/*.scss'],
+            customSyntax: 'postcss-scss',
+        },
     ],
     ignoreFiles: ['node_modules/'],
     rules: {
