@@ -1,6 +1,6 @@
 {
     "name": "@trscd/stylelint-config-tpconfig",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Custom configuration based on stylelint",
     "main": "index.js",
     "scripts": {
@@ -20,6 +20,7 @@
     },
     "homepage": "https://github.com/CDTRSFE/stylelint-config-tpconfig#readme",
     "dependencies": {
+        "postcss": "^8.3.11",
         "postcss-html": "^1.2.0",
         "postcss-less": "^5.0.0",
         "postcss-scss": "^4.0.2",
