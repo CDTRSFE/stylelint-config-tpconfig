@@ -62,6 +62,10 @@ module.exports = {
         'no-empty-first-line': true,
         // 不允许使用 unicode 作为顺序标记
         'unicode-bom': 'never',
-        'font-family-no-missing-generic-family-keyword': null
+        'font-family-no-missing-generic-family-keyword': null,
+        // 覆盖掉stylelint-config-standard中对selector-class-pattern的设置
+        'selector-class-pattern': null,
+        // 覆盖掉stylelint-config-standard中对alpha-value-notation的设置
+        'alpha-value-notation': null
     },
 };
