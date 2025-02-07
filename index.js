@@ -66,6 +66,8 @@ module.exports = {
         // 覆盖掉stylelint-config-standard中对selector-class-pattern的设置
         'selector-class-pattern': null,
         // 覆盖掉stylelint-config-standard中对alpha-value-notation的设置
-        'alpha-value-notation': null
+        'alpha-value-notation': null,
+        // 不需要最大行数限制
+        'max-line-length': null,
     },
 };
